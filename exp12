@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Array Example</title>
+</head>
+<body>
+
+<h1>Student Subjects</h1>
+
+<?php
+$subjects = array("Mathematics", "Physics", "Computer Science", "Electronics", "English");
+
+echo "<h3>Subjects List:</h3>";
+
+foreach ($subjects as $value) {
+    echo $value . "<br>";
+}
+?>
+
+</body>
+</html>
+
